@@ -27,7 +27,8 @@ def transform(file):
     urls = df['ASIN'].tolist()
     model = df['Model'].tolist()
     supplier = df['Supplier'].tolist()
-
+return(file)
+    
 @app.route('/')
 def form():
     return """
